@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Neue+Machina:wght@400;700&display=swap');
+
+body {
+    font-family: 'Neue Machina', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.custom-navbar {
+    padding: 10px 20px;
+    background-color: #F0F0F0 !important;
+}
+
+.custom-navbar .navbar-brand img {
+    height: 40px; /* Adjust image size as needed */
+}
+
+.custom-nav-link {
+    color: #151515;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.custom-nav-link:hover {
+    color: #007bff; /* Optional: Change color on hover */
+}
+
+.custom-login-button {
+    background-color: #FFFFFF;
+    color: #151515;
+    border: 1px solid #151515;
+}
+
+.custom-signup-button {
+    background-color: #151515;
+    color: #FFFFFF;
+    border: 1px solid #151515;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.main-text {
+    font-size: 70px;
+    color: #151515;
+    margin-bottom: 20px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #151515;
+    margin-bottom: 20px;
+}
+
+.custom-input {
+    border: 1px solid #151515;
+    color: #151515;
+}
+
+.custom-button {
+    background-color: #151515;
+    color: #FFFFFF;
+    border: none;
+}
+
+.custom-button:hover {
+    background-color: #333333; /* Optional: Darken the button on hover */
+}
+
+/* Optional: Adjust image size and spacing if needed */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.accordion-button {
+    background-color: #F0F0F0; /* Background color for accordion button */
+    color: #151515; /* Text color for accordion button */
+    border: 1px solid #ccc; /* Border color for the button */
+    box-shadow: none; /* Remove default shadow */
+}
+
+/* Custom background color for the accordion body */
+.accordion-body {
+    background-color: #F0F0F0; /* Background color for accordion body */
+    color: #151515; /* Text color for accordion body */
+}
+
+
+/* Bottom border styling */
+.border-bottom-custom {
+    border-bottom: 2px solid #151515; /* Border width, style, and color */
+}
+
+/* Remove border from the last accordion item to avoid extra border */
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #151515; /* Light background color */
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer .row p {
+    margin-bottom: 0.5rem; /* Space between paragraphs */
+}
+
+footer .form-control {
+    border-radius: 0; /* Remove rounded corners */
+}
+
+footer .btn-primary {
+    border-radius: 0; /* Remove rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+footer a {
+    color: inherit; /* Remove blue color and use the color of the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for footer icons */
+footer .footer-icon {
+    width: 24px; /* Adjust size of icons */
+    height: 24px;
+    vertical-align: middle; /* Align icons with text */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Optional: Add hover effect for icons */
+footer a:hover .footer-icon {
+    color: #007bff; /* Change icon color on hover if desired */
+}
+
+.input-group .form-control {
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.input-group .btn-custom {
+    background-color: #000; /* Black background color */
+    border: 1px solid #fff; /* White border */
+    color: #fff; /* White text color */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+/* Optional: Add hover effect for button */
+.input-group .btn-custom:hover {
+    background-color: #333; /* Darker black on hover */
+    border-color: #fff; /* White border on hover */
+    color: #fff; /* White text color on hover */
+}
+
+@media (max-width: 767.98px) {
+    .footer-icon {
+        width: 20px; /* Smaller icons on smaller screens */
+        height: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-icon {
+        width: 20px; /* Smaller icons on smaller screens */
+        height: 20px;
+    }
+}
